@@ -1,0 +1,65 @@
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg,#3B3B3B, #FFFFFF, #050206);
+    border-radius: 5px; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #3B3B3B, #9A8174, #050206, #FFFFFF;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px ;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar .logo{
+    font-size: 60px;
+}
+
+.navbar .lien{
+    display: flex;
+    gap: 25px;
+}
+
+.lien a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.sociaux {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.home, .about, .skills, .projects, .contact{
+    position: relative;
+    top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89vh;
+    
+}
+.home .description{
+    width: 50%;
+}
+
+.home .sary{
+    width: 50%;
+}
