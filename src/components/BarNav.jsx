@@ -8,7 +8,7 @@ const BarNav = () => {
     return(
         <div className="navbar">
             <div className="logo">
-                Mickaelio
+                Mickaelio<span>.</span>
             </div>
             <div className="lien">
                 <a href="#home">
