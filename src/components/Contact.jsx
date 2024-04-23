@@ -4,7 +4,7 @@ const Conctact = () => {
     return(
         <div className="contact" id="contact">
             <div className="contact-apropo">
-                <h1>Mickaelio</h1>
+                <h1>Contact</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet veritatis labore voluptatem repellendus, saepe ea ex iure voluptate quo obcaecati, sequi harum. Recusandae tenetur consequuntur, quia nam magni id soluta!</p>
             </div>
             <div className="contact-form">

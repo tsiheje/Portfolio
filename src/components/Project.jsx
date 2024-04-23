@@ -3,7 +3,7 @@ import React from "react";
 const Project = () => {
     return(
         <div className="projects" id="projects">
-            <h1>Mon projets</h1>
+            <h1>My projects</h1>
             <div className="projects-contents">
                 <div className="couverture-projects">
 
