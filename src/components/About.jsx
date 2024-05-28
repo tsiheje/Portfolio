@@ -1,5 +1,7 @@
 import React from "react";
 import sary from "../asset/image 3.png";
+import Down from "../asset/images/Down.png";
+
 const About = () => {
     return(
         <div className="about" id="about">
@@ -13,9 +15,10 @@ const About = () => {
                     <div className="separateur-bas"></div>
                 </div>
                 <div className="aprops">
-                    <p>I am Mickaelio, a passionate IT with a primary expertise in creating interactive and responsive experiences using React. Additionally, as a seasoned system and network administrator, I have gained a strong experience in designing, implementing, and maintaining reliable and secure IT infrastructures. My portfolio showcases my achievements in these fields, demonstrating my commitment to delivering innovative technical solutions while ensuring stability and performance of applications and infrastructures.</p>
-                    <p>As a dedicated professional in development and system/network administration, I am open to all freelance opportunities. Whether it's building innovative React applications or managing complex IT infrastructures, I am ready to bring my expertise and dedication to every project to achieve exceptional outcomes.</p>
-                    <p>à la recherche de nouvelles opportunités pour élargir mes compétences et améliorer mon expertise.Doté d’un esprit curieux et rigoureux. Mon parcours académique et mes projets personnels m’ont permis de développer ma polyvalence et ma capacité à travailler efficacement en équipe</p>
+                <p>As a full-stack developer and web integrator, I oversee all stages of development, from user interface design to database management. My mastery of React and back-end technologies like Node.js and Express enables me to create comprehensive and efficient solutions. I prioritize user experience and application performance.</p>
+                <p>My experience in web integration has allowed me to work on various projects, ensuring compatibility and responsiveness across different devices and browsers.I am always seeking new opportunities to apply and deepen my skills in full-stack development and web integration. I am prepared to tackle any challenge to deliver high-quality solutions that meet my clients' needs.</p>
+                <p>For more details about my background and skills, you can download my CV below.</p>
+                    <a href=""><p>Download CV</p><img src={Down} alt="" /></a>
                 </div>
             </div>
         </div>

@@ -8,53 +8,69 @@ const Project = () => {
                 <h1>My projects</h1>
                 <div className="bar"></div>
             </div>
+            <p>Drawing upon my experience and skills in development, I have successfully executed an innovative project, showcasing my ability to design and implement creative and effective solutions.</p>
             <div className="projets-contenu">
                 <div className="projects-contents">
                     <div className="couverture-projects">
                         <img src={OneNote} alt="" />
                     </div>
-                    <div className="description-projects">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dignissimos aut, nemo repudiandae sint laudantium ipsum adipisci aperiam beatae quod saepe rerum quas iste sapiente rem reprehenderit obcaecati fugiat!</p>
+                    <h4>RapidePrime</h4>
+                    <p>Integration of Rapide Prime's website.</p>
+                    <div className="description-techno">
+                        <div className="techon">Next.Js</div>,
+                        <div className="techon">Tailwindcss</div>,
+                        <div className="techon">GSAP Animation</div>
                     </div>
                 </div>
                 <div className="projects-contents">
                     <div className="couverture-projects">
                         <img src={OneNote} alt="" />
                     </div>
-                    <div className="description-projects">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dignissimos aut, nemo repudiandae sint laudantium ipsum adipisci aperiam beatae quod saepe rerum quas iste sapiente rem reprehenderit obcaecati fugiat!</p>
+                    <h4>My Portfolio</h4>
+                    <p>To showcase my projects and skills, demonstrating my creativity and ability to craft attractive interfaces.</p>
+                    <div className="description-techno">
+                        <div className="techon">React.Js</div>,
+                        <div className="techon">GSAP Animation</div>
                     </div>
                 </div>
                 <div className="projects-contents">
                     <div className="couverture-projects">
                         <img src={OneNote} alt="" />
                     </div>
-                    <div className="description-projects">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dignissimos aut, nemo repudiandae sint laudantium ipsum adipisci aperiam beatae quod saepe rerum quas iste sapiente rem reprehenderit obcaecati fugiat!</p>
+                    <h4>MiKrea</h4>
+                    <p>Integration of Mikrea's website.</p>
+                    <div className="description-techno">
+                        <div className="techon">Next.Js</div>,
+                        <div className="techon">GSAP Animation</div>
                     </div>
                 </div>
                 <div className="projects-contents">
                     <div className="couverture-projects">
                         <img src={OneNote} alt="" />
                     </div>
-                    <div className="description-projects">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dignissimos aut, nemo repudiandae sint laudantium ipsum adipisci aperiam beatae quod saepe rerum quas iste sapiente rem reprehenderit obcaecati fugiat!</p>
+                    <div className="titre">
+                        <h4>Critical Path Methode</h4>
+                    </div>
+                    <p>Developing a web application for task scheduling using the Critical Path Method (CPM)</p>
+                    <div className="description-techno">
+                        <div className="techon">React.Js</div>,
+                        <div className="techon">Tailwindcss</div>,
+                        <div className="techon">Reactflow</div>
                     </div>
                 </div>
                 <div className="projects-contents">
                     <div className="couverture-projects">
                         <img src={OneNote} alt="" />
                     </div>
-                    <div className="description-projects">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dignissimos aut, nemo repudiandae sint laudantium ipsum adipisci aperiam beatae quod saepe rerum quas iste sapiente rem reprehenderit obcaecati fugiat!</p>
+                    <div className="titre">
+                        <h4>One Note</h4>
                     </div>
-                </div>
-                <div className="projects-contents">
-                    <div className="couverture-projects">
-                        <img src={OneNote} alt="" />
-                    </div>
-                    <div className="description-projects">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dignissimos aut, nemo repudiandae sint laudantium ipsum adipisci aperiam beatae quod saepe rerum quas iste sapiente rem reprehenderit obcaecati fugiat!</p>
+                    <p>Creating a web platform for easy access to information, courses, and assignments, enhancing communication and education.</p>
+                    <div className="description-techno">
+                        <div className="techon">React.Js</div>,
+                        <div className="techon">Node.Js</div>,
+                        <div className="techon">Express.Js</div>,
+                        <div className="techon">MySQL</div>
                     </div>
                 </div>
             </div>
