@@ -1,6 +1,6 @@
 import React from "react";
 import sary from "../asset/image 3.png";
-
+import fleche from "../asset/fleche.png"
 const Home = () => {
     return(
         <div className="home" id="home">
@@ -9,7 +9,10 @@ const Home = () => {
                     <h2>Hello,</h2>
                     <h1>I'm <span data-text='Mickaelio'>Mickaelio</span></h1>
                     <p>Welcome to my personal website!👋</p>
-                    <a href="#about"> Learn more about me</a>   
+                    <a href="#about">
+                        Learn more about me
+                        <img src={fleche} alt=""/>
+                    </a>   
                 </div>
             </div>
             <div className="sary">

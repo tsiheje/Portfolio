@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
-import Github from "../asset/github.png";
+import Github from "../asset/github (2).png";
 import facebook from "../asset/facebook (2).png"
 import linkedin from "../asset/linkedin (2).png";
 import Menu from "../asset/images/Menu.png";
@@ -42,7 +42,7 @@ const BarNav = () => {
                         <img src={linkedin} alt="" width={40}/>
                     </a>
                     <a href="https://github.com/tsiheje" target="_blank">
-                        <img src={Github} alt="" />
+                        <img src={Github} alt="" width={40}/>
                     </a>
                 </div>
             </div>
