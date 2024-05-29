@@ -73,6 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-left: 85px;
     padding-right: 85px;
     box-sizing: border-box;
@@ -136,7 +137,7 @@ h1 span{
     gap: 8px;
 }
 .about{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background-color: rgb(235, 235, 235);
     padding-top: 100px;
@@ -145,10 +146,12 @@ h1 span{
     box-sizing: border-box;
 }
 .about-content{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 0px;
 }   
 .about-content .aprops p{
     font-family: "Lexend Light", sans-serif;
@@ -324,6 +327,7 @@ ul li:hover{
     height: 400px;
     background-color: #fdfdff;
     border-radius: 15px;
+    border: 1px solid #010c3d;
 }
 .projects-contents .couverture-projects{
     height: 65%;
@@ -414,15 +418,16 @@ ul li:hover{
 .contact-apropos{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 85%;
-    gap: 20px;
+    width: 100%;
+    gap: 10px;
 }
 .contact-apropos .contact-apropo{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    gap: 10px;
+    width: 40%;
+    gap: 15px;
 }
 .contact-apropo h1{
     font-family: "Lexend", sans-serif;
@@ -436,7 +441,7 @@ ul li:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 45%;
     gap: 5px;
 }
 .contact-form .name, .mail{
@@ -473,45 +478,46 @@ ul li:hover{
 }
 
 /* responsive de bar nav*/
-@media (max-width: 900px) { /* Adjust breakpoint as needed */
-    .navbar {
-      flex-direction: column; /* Switch to vertical layout */
-      align-items: flex-start;
-      padding: 10px 20px;
+@media (max-width: 900px) {
+    .navbar{
+        padding: 10px 20px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
     }
-  
-    .navbar .navbar-lien {
-      width: 100%; /* Full width on smaller screens */
-      margin-top: 0; /* Remove margin-top */
-      display: none;
+    .navbar .logo{
+        font-size: 35px;
     }
-  
-    .navbar .lien {
-      flex-direction: column; /* Stack links vertically */
-      gap: 10px; /* Adjust gap for better spacing */
+    .navbar .navbar-lien{
+        display: none;
     }
-  
-    .navbar .menu {
-      display: block; /* Show menu icon on smaller screens */
+    .navbar .menu{
+        display: block;
     }
     .home{
-        display: flex;
-        align-items: center;
         padding: 20px;
+        box-sizing: border-box;
     }
     .home .sary{
         display: none;
     }
-    .home .nom h2{
-        font-size: 40px;
+    .about{
+        padding: 20px;
+        box-sizing: border-box;
     }
-    .home .nom h1{
-        font-size: 40px;
+    .about .separateur{
+        display: none;
     }
-    h1 span{
-        font-size: 40px;
+    .skills{
+        padding: 20px;
+        box-sizing: border-box;
     }
-    .nom p{
-        font-size: 5px;
+    .projects{
+        padding: 20px;
+        box-sizing: border-box;
     }
-  }
+    .contact{
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
