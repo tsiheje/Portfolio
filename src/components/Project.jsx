@@ -37,8 +37,8 @@ const Project = () => {
                     <div className="couverture-projects">
                         <img src={OneNote} alt="" />
                     </div>
-                    <h4>MiKrea</h4>
-                    <p>Integration of Mikrea's website.</p>
+                    <h4>Mi-Krea</h4>
+                    <p>Integration of Mi-Krea's website.</p>
                     <div className="description-techno">
                         <div className="techon">Next.Js</div>,
                         <div className="techon">GSAP Animation</div>

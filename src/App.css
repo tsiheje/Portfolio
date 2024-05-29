@@ -115,6 +115,7 @@ h1 span{
 .description .nom p{
     font-size: 40px;
     padding-bottom: 20px;
+    font-family: "Lexend Regular", sans-serif;
 }
 .nom a{
     display: flex;
@@ -146,6 +147,7 @@ h1 span{
     gap: 20px;
 }   
 .about-content .aprops p{
+    font-family: "Lexend Light", sans-serif;
     font-size: 20px;
 }
 .about-content .separateur{
@@ -179,6 +181,7 @@ h1 span{
     box-sizing: border-box;
     border-radius: 8px;
     color: white;
+    font-family: "Lexend", sans-serif;
 }
 .skills{
     background-color: rgb(235, 235, 235);
@@ -195,6 +198,7 @@ h1 span{
 }
 .skills h1{
     font-size: 50px;
+    font-family: "Lexend semibold", sans-serif;
 }
 
 .skills .text{
@@ -209,6 +213,9 @@ h1 span{
     height: 5px;
     border-radius: 5px;
     background-color: #010c3d;
+}
+.skills p{
+    font-family: "Lexend Regular", sans-serif;
 }
 
 .skills-content{
@@ -226,26 +233,32 @@ h1 span{
 }
 .skills-content-description .description{
     background-color: #fdfdff;
-    width: 500px;
-    height: 320px;
+    width: 550px;
+    height: 370px;
     padding: 15px;
     box-sizing: border-box;
     border-radius: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
     box-shadow: 5px 10px 25px 5px rgb(192, 192, 192);
 }
 .description h3{
     font-size: 25px;
     text-align: center;
+    font-family: "Lexend Medium", sans-serif;
+    color: #041870;
+}
+.description h5{
+    font-size: 20px;
+    font-family: "Lexend", sans-serif;
 }
 ul{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 30px;
 }
 
 ul li{
@@ -270,13 +283,14 @@ ul li:hover{
     flex-direction: column;
     background-color: rgb(235, 235, 235);
     padding-top: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 85px;
+    padding-right: 85px;
     box-sizing: border-box;
     gap: 30px;
 }
 .projects h1{
     font-size: 50px;
+    font-family: "Lexend", sans-serif;
 }
 .projects .text{
     display: flex;
@@ -291,6 +305,9 @@ ul li:hover{
     border-radius: 5px;
     background-color: #010c3d;
 }
+.projects p{
+    font-family: "Lexend Regular",sans-serif;
+}
 .projects .projets-contenu{
     display: flex;
     align-items: center;
@@ -299,11 +316,10 @@ ul li:hover{
     gap: 20px;
 }
 .projets-contenu .projects-contents{
-    width: 370px;
+    width: 380px;
     height: 400px;
     background-color: #fdfdff;
     border-radius: 15px;
-    position: relative;
 }
 .projects-contents .couverture-projects{
     height: 65%;
@@ -315,26 +331,15 @@ ul li:hover{
     height: 100%;
     object-fit: cover;
 }
-.projects-contents h3{
+.projects-contents h4{
+    margin-top: 8px;
     text-align: center;
     font-size: 30px;
+    font-family: "Lexend Regural", sans-serif;
+    color: #041870;
 }
-.projects-contents .description-projects{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgb(0, 0, 0,0.8);
-    padding: 10px 15px;
-    box-sizing: border-box;
-    font-size: 16px;
-    display: none;
-    border-radius: 15px;
-    color: white;
-}
-.projets-contenu .projects-contents:hover .description-projects{
-    display: block;
+.projects-contents p{
+    text-align: center;
 }
 .projects-contents .description-techno{
     display: flex;
@@ -342,13 +347,10 @@ ul li:hover{
     justify-content: center;
     flex-wrap: wrap;
     gap: 5px;
-}
-.description-techno .techon{
-    box-sizing: border-box;
-    text-align: center;
-    border-radius: 8px;
+    font-family: "Lexend Thin", sans-serif;
     font-size: 20px;
 }
+
 .contact{
     display: flex;
     align-items: center;
@@ -366,6 +368,7 @@ ul li:hover{
     width: 85%;
     border: 10px solid rgb(2, 2, 135);
 }
+
 .citation .citation-description{
     padding: 55px;
     box-sizing: border-box;
@@ -383,9 +386,26 @@ ul li:hover{
     top: 0;
     transition: 1s;
 }
+.citation .citation-description::before{
+    content: '🙶';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    font-size: 70px;
+    color:white;
+}
+.citation .citation-description::after{
+    content: '🙷';
+    position: absolute;
+    bottom: -55px;
+    right: 0;
+    font-size: 70px;
+    color:white;
+}
 .citation-description p{
     font-size: 25px;
     color: white;
+    font-family: "Lexend semibold", sans-serif;
 }
 .contact-apropos{
     display: flex;
@@ -395,7 +415,17 @@ ul li:hover{
     gap: 20px;
 }
 .contact-apropos .contact-apropo{
+    display: flex;
+    flex-direction: column;
     width: 50%;
+    gap: 10px;
+}
+.contact-apropo h1{
+    font-family: "Lexend", sans-serif;
+}
+.contact-apropo p{
+    font-family: "Lexend Light", sans-serif;
+    font-size: 18px;
 }
 .contact-apropos .contact-form{
     display: flex;
@@ -407,12 +437,12 @@ ul li:hover{
 }
 .contact-form .name, .mail{
     display: flex;
-    gap: 5px;
+    gap: 4px;
     width: 100%;
 }
 .contact-form input, textarea{
     width: 100%;
-    padding: 5px;
+    padding: 8px;
     box-sizing: border-box;
     font-size: 15px;
     border: 1px solid blue;
@@ -430,7 +460,7 @@ ul li:hover{
 .phone-number{
     display: flex;
     flex-direction: column;
-    gap: 10 px;
+    gap: 8px;
 }
 .phone-number .phone-mail{
     display: flex;

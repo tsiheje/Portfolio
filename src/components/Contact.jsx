@@ -26,7 +26,7 @@ const Conctact = () => {
                         </div>
                         <div className="phone-mail">
                             <img src={Adress} alt="" width={30}/>
-                            <p>À Madagascar</p>
+                            <p>Madagascar</p>
                         </div>
                     </div>
                 </div>

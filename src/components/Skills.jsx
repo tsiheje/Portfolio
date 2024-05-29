@@ -30,19 +30,19 @@ const Skills = () => {
             <ul>
               <li>
                 <img src={html} alt=""/>
-                <h3>HTML</h3> 
+                <h5>HTML</h5> 
               </li>
               <li>
                 <img src={Css} alt="" />
-                <h3>CSS</h3>
+                <h5>CSS</h5>
               </li>
               <li>
                 <img src={Js} alt=""/> 
-                <h3>JavaScript</h3>
+                <h5>JavaScript</h5>
               </li>
               <li>
                 <img src={PHP} alt="" />
-                <h3>PHP</h3>
+                <h5>PHP</h5>
               </li>
             </ul>
           </div>
@@ -51,27 +51,27 @@ const Skills = () => {
               <ul>
                 <li>
                   <img src={Native} alt=" "/>
-                  <h3>React.Js</h3>
+                  <h5>React.Js</h5>
                 </li>
                 <li>
                   <img src={Next} alt="" />
-                  <h3>Next.Js</h3>
+                  <h5>Next.Js</h5>
                 </li>
                 <li>
                   <img src={Node} alt="" />
-                  <h3>Node.Js</h3>
+                  <h5>Node.Js</h5>
                 </li>
                 <li>
                   <img src={Ex} alt="" />
-                  <h3>Express.Js</h3>
+                  <h5>Express.Js</h5>
                 </li>
                 <li>
                   <img src={Native} alt=""/>
-                  <h3>React Native</h3>
+                  <h5>React Native</h5>
                 </li>
                 <li>
                   <img src={Tailwindcss} alt="" />
-                  <h3>Tailwindcss</h3>
+                  <h5>Tailwindcss</h5>
                 </li>
               </ul>
           </div>
@@ -80,11 +80,11 @@ const Skills = () => {
             <ul>
               <li>
                 <img src={Mysql} alt="" />
-                <h3>MySQL</h3> 
+                <h5>MySQL</h5> 
               </li>
               <li>
                 <img src={Postgre} alt="" />
-                <h3>PostgreSQL</h3>
+                <h5>PostgreSQL</h5>
               </li>
             </ul>
           </div>
@@ -93,19 +93,19 @@ const Skills = () => {
             <ul>
               <li>
                 <img src={Ai} alt="" />
-                <h3>Adobe Illustrator</h3>
+                <h5>Adobe Illustrator</h5>
               </li>
               <li>
                 <img src={Figma} alt="" />
-                <h3>Figma</h3>
+                <h5>Figma</h5>
               </li>
               <li>
                 <img src={Ps} alt="" />
-                <h3>Adobe Photoshop</h3>
+                <h5>Adobe Photoshop</h5>
               </li>
               <li>
                 <img src={Git} alt="" />
-                <h3>Git</h3>
+                <h5>Git</h5>
               </li>
             </ul>
           </div>

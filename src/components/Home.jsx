@@ -1,5 +1,5 @@
 import React from "react";
-import sary from "../asset/image 3.png";
+import sary from "../asset/image-3.webp";
 import fleche from "../asset/fleche.png"
 const Home = () => {
     return(
