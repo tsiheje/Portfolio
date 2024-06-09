@@ -149,10 +149,13 @@ h1 span{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap: wrap;
-    gap: 0px;
-}   
+    gap: 20px;
+}  
+.about-content .aprops{
+    width: 60%;
+} 
 .about-content .aprops p{
     font-family: "Lexend Light", sans-serif;
     font-size: 20px;
@@ -418,16 +421,16 @@ ul li:hover{
 .contact-apropos{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    flex-wrap: wrap; 
+    width: 90%;
     gap: 10px;
 }
 .contact-apropos .contact-apropo{
     display: flex;
     flex-direction: column;
-    width: 40%;
     gap: 15px;
+    width: 45%;
 }
 .contact-apropo h1{
     font-family: "Lexend", sans-serif;
@@ -441,8 +444,8 @@ ul li:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 45%;
     gap: 5px;
+    width: 50%;
 }
 .contact-form .name, .mail{
     display: flex;
