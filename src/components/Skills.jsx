@@ -17,98 +17,98 @@ import Css from "../asset/images/Css.png";
 
 const Skills = () => {
   return (
-    <div className="skills" id="skills">
-      <div className="text">`
-        <div className="bar"></div>
-        <h1>My Skills</h1>
+    <div className="bg-gray-200 pt-20 px-20 box-border flex flex-col items-center justify-center w-full gap-7" id="skills">
+      <div className="flex items-center gap-5 text-center">
+        <h1 className="text-4xl font-semibold">My Skills</h1>
+        <div className="h-1 w-56 mt-1 bg-blue-900 rounded"></div>
       </div>
-      <p>I have developed a strong expertise in React.js and Node.js, along with proficiency in other areas, enabling me to effectively contribute to innovative and high-quality projects.</p>
-      <div className="skills-content">
-        <div className="skills-content-description">
-          <div className="description">
-            <h3>Web Technologies and Programming Language</h3>
-            <ul>
-              <li>
-                <img src={html} alt=""/>
-                <h5>HTML</h5> 
-              </li>
-              <li>
-                <img src={Css} alt="" />
-                <h5>CSS</h5>
-              </li>
-              <li>
-                <img src={Js} alt=""/> 
-                <h5>JavaScript</h5>
-              </li>
-              <li>
-                <img src={PHP} alt="" />
-                <h5>PHP</h5>
-              </li>
-            </ul>
-          </div>
-          <div className="description">
-              <h3>Frameworks and Libraries</h3>
-              <ul>
-                <li>
-                  <img src={Native} alt=" "/>
-                  <h5>React.Js</h5>
-                </li>
-                <li>
-                  <img src={Next} alt="" />
-                  <h5>Next.Js</h5>
-                </li>
-                <li>
-                  <img src={Node} alt="" />
-                  <h5>Node.Js</h5>
-                </li>
-                <li>
-                  <img src={Ex} alt="" />
-                  <h5>Express.Js</h5>
-                </li>
-                <li>
-                  <img src={Native} alt=""/>
-                  <h5>React Native</h5>
-                </li>
-                <li>
-                  <img src={Tailwindcss} alt="" />
-                  <h5>Tailwindcss</h5>
-                </li>
-              </ul>
-          </div>
-          <div className="description">
-            <h3>Data Bases</h3>
-            <ul>
-              <li>
-                <img src={Mysql} alt="" />
-                <h5>MySQL</h5> 
-              </li>
-              <li>
-                <img src={Postgre} alt="" />
-                <h5>PostgreSQL</h5>
-              </li>
-            </ul>
-          </div>
-          <div className="description">
-            <h3>Tools</h3>
-            <ul>
-              <li>
-                <img src={Ai} alt="" />
-                <h5>Adobe Illustrator</h5>
-              </li>
-              <li>
-                <img src={Figma} alt="" />
-                <h5>Figma</h5>
-              </li>
-              <li>
-                <img src={Ps} alt="" />
-                <h5>Adobe Photoshop</h5>
-              </li>
-              <li>
-                <img src={Git} alt="" />
-                <h5>Git</h5>
-              </li>
-            </ul>
-          </div>
+      <p className="font-sans text-lg text-center">
+        I have developed a strong expertise in React.js and Node.js, along with proficiency in other areas, enabling me to effectively contribute to innovative and high-quality projects.
+      </p>
+      <div className="flex items-center justify-center gap-5 flex-wrap">
+        <div className="flex flex-col items-center gap-4 bg-white w-136 h-92 p-4 box-border rounded-lg shadow-md">
+          <h3 className="text-xl font-medium text-center text-blue-900">Web Technologies and Programming Languages</h3>
+          <ul className="flex items-center flex-wrap gap-7">
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={html} alt="HTML" />
+              <h5 className="text-lg">HTML</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Css} alt="CSS" />
+              <h5 className="text-lg">CSS</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Js} alt="JavaScript" />
+              <h5 className="text-lg">JavaScript</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={PHP} alt="PHP" />
+              <h5 className="text-lg">PHP</h5>
+            </li>
+          </ul>
+        </div>
+        <div className="flex flex-col items-center gap-4 bg-white w-136 h-92 p-4 box-border rounded-lg shadow-md">
+          <h3 className="text-xl font-medium text-center text-blue-900">Frameworks and Libraries</h3>
+          <ul className="flex items-center flex-wrap gap-7">
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Native} alt="React.Js" />
+              <h5 className="text-lg">React.Js</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Next} alt="Next.Js" />
+              <h5 className="text-lg">Next.Js</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Node} alt="Node.Js" />
+              <h5 className="text-lg">Node.Js</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Ex} alt="Express.Js" />
+              <h5 className="text-lg">Express.Js</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Native} alt="React Native" />
+              <h5 className="text-lg">React Native</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Tailwindcss} alt="Tailwindcss" />
+              <h5 className="text-lg">Tailwindcss</h5>
+            </li>
+          </ul>
+        </div>
+        <div className="flex flex-col items-center gap-4 bg-white w-136 h-92 p-4 box-border rounded-lg shadow-md">
+          <h3 className="text-xl font-medium text-center text-blue-900">Data Bases</h3>
+          <ul className="flex items-center flex-wrap gap-7">
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Mysql} alt="MySQL" />
+              <h5 className="text-lg">MySQL</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Postgre} alt="PostgreSQL" />
+              <h5 className="text-lg">PostgreSQL</h5>
+            </li>
+          </ul>
+        </div>
+        <div className="flex flex-col items-center gap-4 bg-white w-136 h-92 p-4 box-border rounded-lg shadow-md">
+          <h3 className="text-xl font-medium text-center text-blue-900">Tools</h3>
+          <ul className="flex items-center flex-wrap gap-7">
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Ai} alt="Adobe Illustrator" />
+              <h5 className="text-lg">Adobe Illustrator</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Figma} alt="Figma" />
+              <h5 className="text-lg">Figma</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Ps} alt="Adobe Photoshop" />
+              <h5 className="text-lg">Adobe Photoshop</h5>
+            </li>
+            <li className="flex items-center gap-1.5 p-2 box-border rounded-lg hover:scale-105 hover:text-blue-900 hover:bg-white">
+              <img src={Git} alt="Git" />
+              <h5 className="text-lg">Git</h5>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
